@@ -65,7 +65,7 @@ Synth (\pali);
 a = Pbind(
 	TempoClock (120/60);
 	\scale, Scale.harmonicMajor,
-	\instrument, \eerie,
+	\instrument, \pali2,
 	\degree, Pseq([8, 13,18,18,13,8],inf),
 	\dur, 0.3,
 	\mul, 2,
@@ -92,7 +92,7 @@ b.stop;
 c = Pbind(
 	TempoClock (120/60);
 	\scale, Scale.dorian,
-	\instrument, \eerie,
+	\instrument, \pali2,
 	\degree, Pseq([8, 15,18,18,15,8],inf),
 	\dur, 0.3,
 	\mul, 2,
@@ -119,7 +119,7 @@ d.stop;
 
 e = Pbind(
 	\scale, Scale.harmonicMajor,
-	\instrument, \eerie,
+	\instrument, \pali2,
 	\degree, Pseq([8, 17,18,18,17,8],inf),
 	\dur, 1,
 	\mul, 2,
@@ -131,5 +131,3 @@ e = Pbind(
 a.stop
 }.fork;
 )
-
-
